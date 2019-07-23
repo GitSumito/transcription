@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <head lang="ja-JP">
     <meta charset="utf-8">
-    <title>HTML5 ボイスコントロール テスト</title>
+    <title>HTML5 voice controle</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" type="text/css" />
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
 <h1 class="text-center h3"> Speech Recognition API 6</h1>
-     <p  class="text-center">ボイスコントロールテスト</p>
+     <p  class="text-center">voice controle test</p>
 <div id="content">
-      <div id="box">
+      <div id="text">
       </div>
-</div>
+<textarea id="correct"></textarea>
+
 <div class="text-center">
-    <button id="startRecBtn" class="btn btn-default">マイク 開始</button>
-    <button id="stopRecBtn" class="btn btn-default">マイク 停止</button>
+    <button id="startRecBtn" class="btn btn-default">mic start</button>
+    <button id="stopRecBtn" class="btn btn-default">mic stop</button>
 </div>
 <div id="text" class="text-center">
-    「赤」「青」「黄色」「緑」<br>
-    って話しかけてみてね。
+Please say [RED] [BLUE] [GREEN] [YELLOW]
 </div>      
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
     <script src="main.js"></script>
